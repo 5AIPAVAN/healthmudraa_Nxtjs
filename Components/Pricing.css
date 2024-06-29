@@ -1,0 +1,109 @@
+section.pricing {
+    background: transparent;
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    /* box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); */
+    height: max-content;
+    background-color: #eef7ff;
+}
+
+.fa-ul {
+    list-style-type: none; /* Remove default bullet points */
+  }
+  
+  /* Optional: Add margin to the left of the icons for better alignment */
+  .fa-ul li i {
+    margin-right: 0.5rem;
+  }
+
+.priceclass{
+    color: #133682;
+  }
+
+.pricing .card:hover {
+   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background-color: #133682;  /* Slightly different shade of blue */
+    transform: scale(1.05);  /* Slightly increase the size of the card */
+    color: white;
+  }
+
+  .pricing .card:hover .btn {
+    background-color: white;
+    color: #133682;
+    transform: scale(1.05); /* Slightly increase the size of the button */
+    transition: all 0.2s;  /* Ensure the button transition matches the card */
+  }
+
+  .pricing .card:hover h6{
+    color: white;
+    transform: scale(1.05); /* Slightly increase the size of the button */
+    transition: all 0.2s;  /* Ensure the button transition matches the card */
+  }
+
+  .pricing .card:hover .priceclass {
+    color: white;  /* Change the color to white when the card is hovered */
+    transition: color 0.2s;  /* Smooth transition for the color change */
+  }
+
+  
+
+.pricing .card-body{
+    width: 88%;
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #133682;
+    color: white;
+    transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}

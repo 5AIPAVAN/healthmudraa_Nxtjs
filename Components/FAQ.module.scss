@@ -1,0 +1,18 @@
+// Override Bootstrap variables
+$primary: #007bff;
+$secondary: #6c757d;
+// Add other Bootstrap variable overrides here
+
+// Custom styles
+.accordion-button{
+  font-size: 1.2rem;
+  letter-spacing: 0.7px;
+  background-color: #e00000;
+  color: chartreuse;
+}
+
+.accordion-item-expanded {
+  background-color: #e00000;
+  border-radius: 10px;
+  color: chartreuse;
+}
