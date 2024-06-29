@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:8080";
+const url='https://health-mudhra-backend.vercel.app';
 const frURL = "https://healthmudraa.com/doctor/login";
 
 // Create instance without Authorization header
