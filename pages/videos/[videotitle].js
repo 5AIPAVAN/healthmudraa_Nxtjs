@@ -10,8 +10,8 @@ import {
   SpecificVideoWrapper,
 } from "../../styles/SpecificVideo";
 
-import LeadGenerationForm from "../../components/common/Lead-Generation";
-import RenderModalOrBottomSheet from "../../components/common/RenderModalBS";
+import LeadGenerationForm from "../../Components/common/Lead-Generation";
+import RenderModalOrBottomSheet from "../../Components/common/RenderModalBS";
 import { Flex } from "../../styles/CommonStyles";
 
 import { Description } from "../../styles/CommonStyles";
