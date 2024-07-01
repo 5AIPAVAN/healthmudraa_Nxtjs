@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Plyr from "plyr-react";
 import { useRouter } from 'next/router';
 import { videoHomePage } from "../../Service/Services"; // Adjust the import path according to your project structure
-import DoctorProfile from "../../components/DoctorProfile";
+import DoctorProfile from "../../Components/DoctorProfile";
 import {
   BookAppointmentFixedbar,
   SpecificVideoWrapper,

@@ -1,5 +1,5 @@
 import React from 'react';
-// import heroimg from './heroimg.png'
+import heroimg from './heroimg.png'
 import heroimg from 'E:/HealthMudraa_Nextjs/hm_frontend/Components/heroimg.png'
 import Link from 'next/link';
 
