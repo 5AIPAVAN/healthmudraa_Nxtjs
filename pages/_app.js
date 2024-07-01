@@ -18,7 +18,7 @@
 
 // pages/_app.js
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'E:/HealthMudraa_Nextjs/hm_frontend/Components/Pricing.css';
+// import 'E:/HealthMudraa_Nextjs/hm_frontend/Components/Pricing.css';
 import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
 
