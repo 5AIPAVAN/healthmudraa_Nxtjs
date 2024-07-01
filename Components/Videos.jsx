@@ -139,9 +139,9 @@ const Videos = ({videos}) => {
                   <HMCard
                    onClick={() => {
                     router.push(
-                      `/videos/${encodeURIComponent(
-                        item.title.split(" ").join("-")
-                      )}`
+                      `/videos/${decodeURIComponent(
+                          item.title.split(" ").join("-").toString()
+                        )}`
                     );
                   }}
                   >

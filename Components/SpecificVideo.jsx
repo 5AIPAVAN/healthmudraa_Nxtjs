@@ -16,22 +16,23 @@ function SpecificVideo() {
   // const queryParams = new URLSearchParams(location.search);
   // const videocode = queryParams.get("videocode");
   // const doctor = queryParams.get("doctor");
-  const { videotitle } = useParams();
+  // const { videotitle } = useParams();
   const [url, setUrl] = useState("");
 
   const [data, setData] = useState(null);
   const [isBtsVisible, setShowBts] = useState(false);
 
-  const fetchVideoData = async () => {
-    var videoTitle2 = videotitle.split("-").join(" ");
-    const responseJson = await videoHomePage(videoTitle2);
-    console.log(responseJson.data.data[0]);
-    setData(responseJson.data.data[0]);
-    setUrl(responseJson.data.data[0].link);
-  };
+  // const fetchVideoData = async () => {
+  //   var videoTitle2 = videotitle.split("-").join(" ");
+  //   const responseJson = await videoHomePage(videoTitle2);
+  //   console.log(responseJson.data.data[0]);
+  //   setData(responseJson.data.data[0]);
+  //   setUrl(responseJson.data.data[0].link);
+  // };
 
   useEffect(() => {
     if (videotitle) {
+      console.log("titleeeeeee hereeee:"+videotitle)
       fetchVideoData();
     }
   }, [videotitle]);
